@@ -1,0 +1,119 @@
+html,body,div,h1,h2,h3,article {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+html, body {
+	background: #7c8fb2; font-family: arial; font-size: 16px; color: #222;
+}
+
+.clear {
+	clear: both;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #aef9bb;
+}
+
+#headshot {
+	width: 15.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt';
+	margin-bottom: 10px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt';
+}
+
+#mainArea {
+	padding: 0 60px;
+background: #aef9bb;
+}
+
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+section {
+	border-top: 1px solid #141e16;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+#cv {
+	width: 90%;
+	max-width: 1000px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+.sectionTitle h1 {
+	font-family: Helvetica;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: Helvetica;
+	font-size: 1.2em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.6em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
